@@ -2,12 +2,22 @@
     margin: 0;
 }
 
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
 .skip_diet{
     display: flex;
     padding: 5%;
+
+}
+.about_me{
+    display: flex;
+    padding: 5%;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0px;
 
 }
 .skip_diet_content{
@@ -23,6 +33,12 @@ body{
     font-weight: bold;
     margin-bottom: 20px;
 }
+.skip_diet_content h2{
+    font-size: 40px;
+    color: #707070;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 .skip_diet_content p{
     font-size: 22px;
     color: #575757;
@@ -31,16 +47,25 @@ body{
 .skip_diet_content img{
     width: 95%;
 }
+.about_me_content img{
+    width: 45%;
+}
 .heading_orange{
     color: orange;
 }
 .order_button{
     text-decoration: none;
     background-image: linear-gradient(to right,orange,red);
-    padding: 20px 20px;
+    padding: 20px 30px;
     border-radius: 50px;
     color: white;
     font-weight: bold;
     font-size: 20px;
  
+}
+.about_me_description{
+    padding: 10px 100px;
+}
+.about_me_description p{
+    margin-bottom: 100px;
 }
