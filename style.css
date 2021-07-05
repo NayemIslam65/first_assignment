@@ -61,7 +61,7 @@ p{
     width: 45%;
 }
 .heading_orange{
-    color: orange;
+    color: #FBA24F;
 }
 .order_button{
     text-decoration: none;
@@ -132,4 +132,15 @@ p{
 }
 footer{
     background-color: #18191f;
+    text-align: center;
+    padding: 30px 0px 100px 0px;
+}
+.footer_content h3{
+    font-size: 40px;
+    color: #575757;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer_content p{
+    color: white;
 }
