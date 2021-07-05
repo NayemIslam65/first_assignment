@@ -81,6 +81,9 @@ p{
     text-align: center;
     padding: 100px 0px 50px 0px;
 }
+.recipe{
+    margin-bottom: 150px;
+}
 .recipe_items{
     display: flex;
     padding: 0 0 0 5%;
@@ -101,4 +104,32 @@ p{
 .item_content{
     text-align: left;
     padding: 20px 0px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social_items{
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px lightgray;
+    padding: 50px 0px;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+.social_item_content{
+    width: 26%;
+    text-align: center;
+    margin: 0 8%;
+}
+.social_item_wrapper{
+    text-align: left;
+}
+.social_item_content h3{
+    font-size: 48px;
+
+}
+footer{
+    background-color: #18191f;
 }
