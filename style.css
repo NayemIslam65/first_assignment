@@ -6,6 +6,28 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+h1{
+    font-size: 55px;
+    color: #575757;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 40px;
+    color: #707070;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 28px;
+    color: #18191f;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+    color: #575757;
+}
 .skip_diet{
     display: flex;
     padding: 5%;
@@ -27,22 +49,10 @@ body{
     align-items: center;
   
 }
-.skip_diet_content h1{
-    font-size: 55px;
-    color: #575757;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.skip_diet_content h2{
-    font-size: 40px;
-    color: #707070;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
+ 
 .skip_diet_content p{
-    font-size: 22px;
-    color: #575757;
     margin-bottom: 40px;
+    padding-right: 100px;
 }
 .skip_diet_content img{
     width: 95%;
@@ -63,9 +73,32 @@ body{
     font-size: 20px;
  
 }
-.about_me_description{
-    padding: 10px 100px;
-}
+
 .about_me_description p{
     margin-bottom: 100px;
+}
+.recipe_heading{
+    text-align: center;
+    padding: 100px 0px 50px 0px;
+}
+.recipe_items{
+    display: flex;
+    padding: 0 0 0 5%;
+}
+.item{
+    width: 26%;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px lightgray;
+    padding: 20px;
+    text-align: center;
+    margin-right: 5%;
+}
+.item img{
+    width: 95%;
+    border-radius: 30px;
+
+}
+.item_content{
+    text-align: left;
+    padding: 20px 0px;
 }
